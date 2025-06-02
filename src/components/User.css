@@ -1,0 +1,13 @@
+.profile-img{
+    border-radius: 50%;
+    height: 40px;
+}
+.user-detail{
+    display: flex;
+    align-items: center;
+}
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
