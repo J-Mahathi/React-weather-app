@@ -41,6 +41,7 @@ export default function InformationBox({ info }) {
               }
             </Typography>
             <Typography variant="body2" sx={{ color: "text.secondary" }}>
+              {/* to remove the error in console just replace pTags here with span */}
               <p>Temperature = {info.temp}&deg;C</p>
               <p>Humidity = {info.humidity}</p>
               <p>Min Temperature = {info.tempMin}</p>
